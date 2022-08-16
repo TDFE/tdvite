@@ -1,0 +1,27 @@
+{
+  "name": "td-vite",
+  "version": "1.0.0",
+  "description": "同盾vite命令",
+  "main": "index.js",
+  "bin": {
+    "tdvite": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@originjs/vite-plugin-commonjs": "1.0.3",
+    "@rollup/plugin-inject": "4.0.4",
+    "@vitejs/plugin-legacy": "2.0.1",
+    "@vitejs/plugin-react": "2.0.1",
+    "babel-plugin-import": "^1.13.3",
+    "lodash": "^4.17.21",
+    "postcss-modules": "4.3.1",
+    "vite": "3.0.3",
+    "vite-plugin-imp": "2.2.0",
+    "vite-plugin-tongdun-transform": "^1.0.3"
+  }
+}
